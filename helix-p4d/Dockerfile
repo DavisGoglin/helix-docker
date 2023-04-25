@@ -21,8 +21,8 @@ RUN \
 
 # Create perforce user and install Perforce Server
 RUN \
-  apt-get install -y helix-p4d=2020.2-2075706~focal && \
-  apt-get install -y helix-swarm-triggers=2020.2-2065513~focal
+  apt-get install -y helix-p4d=2022.2-2407422~focal  && \
+  apt-get install -y helix-swarm-triggers=2023.1-2414875~focal
 
 # Add external files
 COPY files/restore.sh /usr/local/bin/restore.sh
